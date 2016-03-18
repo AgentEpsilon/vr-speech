@@ -1,5 +1,6 @@
 {
   "name": "vr-speech",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "browserify": "^13.0.0",
