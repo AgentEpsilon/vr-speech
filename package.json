@@ -10,6 +10,7 @@
     "bundle": "node browserify.js"
   },
   "dependencies": {
+    "aframe": "^0.2.0-rc1",
     "firebase": "^2.4.1"
   }
 }
