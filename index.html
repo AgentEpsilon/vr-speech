@@ -2,8 +2,17 @@
 <html>
     <head>
         <title>VR Slideshow</title>
+        <script src="aframe.min.js"></script>
     </head>
     <body>
-         Test
+        <a-scene>
+            <a-image visible="false" position="0 2 2" id="slide1" src="slides/slides.001.png"></a-image>
+            <a-image visible="false" position="0 2 2" id="slide2" src="slides/slides.002.png"></a-image>
+            <a-image visible="false" position="0 2 2" id="slide3" src="slides/slides.003.png"></a-image>
+            <a-image visible="false" position="0 2 2" id="slide4" src="slides/slides.004.png"></a-image>
+            <a-cube position="0 0 -1" scale="10 10 1"></a-cube>
+        </a-scene>
+        <script src="dist/bundle.js"></script>
+        <script src="dist/vr.js"></script>
     </body>
 </html>
